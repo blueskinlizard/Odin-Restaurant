@@ -1,0 +1,36 @@
+:root{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background-color: rgb(42, 62, 141);
+}
+.header{
+    display: flex;
+    margin: 0;
+    border: none;
+    padding: 2.5rem;
+    justify-content: end;
+}
+.nav{
+    padding-right: 15rem;
+    display: flex;
+    justify-content: center;
+}
+.nav p{
+    color: bisque;
+    font-size: 2.7rem;
+    margin-right: 3rem;
+    font-weight: 200;
+    transition: 0.25s background-color ease-in, 0.25s padding-left ease-out, 0.25s padding-right ease-out, font-weight 0.1s ease-in;
+}
+.nav p:hover{
+    font-weight: 400;
+    cursor: pointer;
+    background-color: rgb(25, 94, 141);
+    border-radius: 0.3rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+}
